@@ -1,0 +1,34 @@
+.card{
+    width: 6rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card span{
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card>img{
+    height: 4rem;
+    width: 4rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .card>img{
+        transform: scale(0.5);
+    }
+    .card span{
+        font-size: 0.8rem;
+    }
+    .card{
+        gap: 0;
+    }
+  }
