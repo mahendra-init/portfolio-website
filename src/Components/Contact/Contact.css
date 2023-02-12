@@ -1,11 +1,13 @@
 .contact-form{
-    padding: 0 3rem;
+    padding: 0 1rem;
     display: flex;
-    height: 60vh;
-    margin-top: 10rem;
-    margin-left: 8vw;
+    margin: 5rem 2rem;
 }
-
+.c-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .awesome span span{
     font-size: 2.3rem;
 }
@@ -50,9 +52,7 @@ textarea{
     .contact-form{
         display: flex;
         flex-direction: column;
-        height: 33rem;
-        margin-left: 0;
-        margin-top: 3rem;
+        margin: 2rem;
     }
     .c-right>form{
         transform: scale(0.7);
